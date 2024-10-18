@@ -157,3 +157,33 @@ main section{
     margin-left: 500px;
     margin-top: 80px;
 }
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-icons a{
+    margin-right: 20px;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.footer-header{
+    margin-right: 110px;
+}
+.footer-column p{
+    text-align: justify;
+}
